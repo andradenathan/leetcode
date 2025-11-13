@@ -28,8 +28,3 @@ def remove_duplicates_two(nums: List[int]) -> int:
             current_pos += 1
 
     return current_pos
-
-
-
-entry = [0,0,1,1,1,1,2,3,3]
-print(remove_duplicates_two(entry))
